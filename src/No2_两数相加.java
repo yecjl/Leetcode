@@ -15,6 +15,11 @@ public class No2_两数相加 {
      * 来源：力扣（LeetCode）
      * 链接：https://leetcode-cn.com/problems/add-two-numbers
      *
+     * 注意：需要考虑的点
+     *
+     * 1、超过long范围的数据
+     * 2、5+5 = 10，需要多一位
+     *
      * @param args
      */
     public static void main(String[] args) {
