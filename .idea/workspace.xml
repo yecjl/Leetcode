@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1d74cb0-8979-40db-8611-7f51e9e40b10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/No5_最长回文子串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/No6_Z字形变换.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/No5_最长回文子串.java">
+        <entry file="file://$PROJECT_DIR$/src/No6_Z字形变换.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            <state relative-caret-position="509">
+              <caret line="81" column="5" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="81" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -40,6 +39,7 @@
       <find>loadClass</find>
       <find>strMax</find>
       <find>abacdgfdcaba</find>
+      <find>append</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -54,6 +54,7 @@
         <option value="$PROJECT_DIR$/src/No3_无重复字符的最长子串.java" />
         <option value="$PROJECT_DIR$/src/No4_寻找两个有序数组的中位数.java" />
         <option value="$PROJECT_DIR$/src/No5_最长回文子串.java" />
+        <option value="$PROJECT_DIR$/src/No6_Z字形变换.java" />
       </list>
     </option>
   </component>
@@ -111,14 +112,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.No5_最长回文子串">
-    <configuration name="No1_两数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="No1_两数之和" />
-      <module name="LeetcodeTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.No6_Z字形变换">
     <configuration name="No2_两数相加" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="No2_两数相加" />
       <module name="LeetcodeTest" />
@@ -147,13 +141,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="No6_Z字形变换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="No6_Z字形变换" />
+      <module name="LeetcodeTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.No6_Z字形变换" />
         <item itemvalue="Application.No5_最长回文子串" />
         <item itemvalue="Application.No4_寻找两个有序数组的中位数" />
         <item itemvalue="Application.No3_无重复字符的最长子串" />
         <item itemvalue="Application.No2_两数相加" />
-        <item itemvalue="Application.No1_两数之和" />
       </list>
     </recent_temporary>
   </component>
@@ -169,18 +170,18 @@
       <updated>1583998445588</updated>
       <workItem from="1583998446861" duration="41345000" />
       <workItem from="1587528454254" duration="1088000" />
-      <workItem from="1587780986455" duration="5075000" />
+      <workItem from="1587780986455" duration="14485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47508000" />
+    <option name="totallyTimeSpent" value="56918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -189,7 +190,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22040816" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29489797" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -225,6 +226,12 @@
           <line>37</line>
           <properties />
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/No6_Z字形变换.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -286,8 +293,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/No5_最长回文子串.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/No6_Z字形变换.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="81" column="5" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="81" selection-end-column="5" />
         </state>
       </provider>
     </entry>
