@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1d74cb0-8979-40db-8611-7f51e9e40b10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/No7_整数反转.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/No8_字符串转换整数atoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,17 +15,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LeetcodeTest" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/No7_整数反转.java">
+        <entry file="file://$PROJECT_DIR$/src/No8_字符串转换整数atoi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-              <folding>
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="220">
+              <caret line="51" column="79" selection-start-line="51" selection-start-column="79" selection-end-line="51" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -44,6 +44,7 @@
       <find>strMax</find>
       <find>abacdgfdcaba</find>
       <find>append</find>
+      <find>Integer.MAX_VALUE</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -60,6 +61,7 @@
         <option value="$PROJECT_DIR$/src/No5_最长回文子串.java" />
         <option value="$PROJECT_DIR$/src/No6_Z字形变换.java" />
         <option value="$PROJECT_DIR$/src/No7_整数反转.java" />
+        <option value="$PROJECT_DIR$/src/No8_字符串转换整数atoi.java" />
       </list>
     </option>
   </component>
@@ -117,14 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.No7_整数反转">
-    <configuration name="No3_无重复字符的最长子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="No3_无重复字符的最长子串" />
-      <module name="LeetcodeTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.No8_字符串转换整数atoi">
     <configuration name="No4_寻找两个有序数组的中位数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="No4_寻找两个有序数组的中位数" />
       <module name="LeetcodeTest" />
@@ -153,13 +148,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="No8_字符串转换整数atoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="No8_字符串转换整数atoi" />
+      <module name="LeetcodeTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.No8_字符串转换整数atoi" />
         <item itemvalue="Application.No7_整数反转" />
         <item itemvalue="Application.No6_Z字形变换" />
         <item itemvalue="Application.No5_最长回文子串" />
         <item itemvalue="Application.No4_寻找两个有序数组的中位数" />
-        <item itemvalue="Application.No3_无重复字符的最长子串" />
       </list>
     </recent_temporary>
   </component>
@@ -175,27 +177,29 @@
       <updated>1583998445588</updated>
       <workItem from="1583998446861" duration="41345000" />
       <workItem from="1587528454254" duration="1088000" />
-      <workItem from="1587780986455" duration="16189000" />
+      <workItem from="1587780986455" duration="17924000" />
+      <workItem from="1588066861059" duration="9000" />
+      <workItem from="1591796529602" duration="7533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58622000" />
+    <option name="totallyTimeSpent" value="67899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24969475" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.32967034" />
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16632654" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25918368" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -248,44 +252,32 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="i + index &lt; s.length()" />
-        <watch expression="left == 0 &amp;&amp; right != 0" />
-        <watch expression="left == right" />
-        <watch expression="result &lt; Integer.MAX_VALUE / 10" />
+        <watch expression="Integer.parseInt(result);" language="JAVA" />
+        <watch expression="chars[index]" />
+        <watch expression="sb" />
+        <watch expression="(index &lt; len) &amp;&amp; (chars[index] == ' ' || chars[index] == '-' || (chars[index] &gt;= 0 &amp;&amp; chars[index] &lt;= 9))" />
+        <watch expression="(index &lt; len)" />
+        <watch expression="(chars[index] &gt;= 0 &amp;&amp; chars[index] &lt;= 9)" />
+        <watch expression="result == null || result.length() == 0 || &quot;-&quot;.equals(result)" />
+        <watch expression="Integer.parseInt(result)" />
       </configuration>
     </watches-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>Integer.parseInt(result);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/No1_两数之和.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="70" column="9" lean-forward="true" selection-start-line="65" selection-start-column="50" selection-end-line="70" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/No2_两数相加.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding>
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/AbstractStringBuilder.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="655" column="16" selection-start-line="655" selection-start-column="16" selection-end-line="655" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/No4_寻找两个有序数组的中位数.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -317,21 +309,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/No7_整数反转.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="210">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
             <element signature="e#537#538#0" expanded="true" />
             <element signature="e#601#602#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/No2_两数相加.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/No1_两数之和.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="5631" column="39" lean-forward="true" selection-start-line="5631" selection-start-column="39" selection-end-line="5631" selection-end-column="39" />
+          <folding>
+            <element signature="e#197464#197465#0" expanded="true" />
+            <element signature="e#197503#197504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="2877" column="61" selection-start-line="2877" selection-start-column="52" selection-end-line="2877" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/No8_字符串转换整数atoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="51" column="79" selection-start-line="51" selection-start-column="79" selection-end-line="51" selection-end-column="79" />
         </state>
       </provider>
     </entry>
