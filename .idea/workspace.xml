@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1d74cb0-8979-40db-8611-7f51e9e40b10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/No9_回文数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/No10_正则表达式匹配.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrintUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeTest/META-INF/LeetcodeTest.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,13 +22,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/No9_回文数.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/No10_正则表达式匹配.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+            <state relative-caret-position="1230">
+              <caret line="83" column="41" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
               <folding>
-                <marker date="1591866481297" expanded="true" signature="630:898" ph="..." />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PrintUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,6 +62,10 @@
       <find>abacdgfdcaba</find>
       <find>append</find>
       <find>Integer.MAX_VALUE</find>
+      <find>System.out.println(</find>
+      <find>pChar</find>
+      <find>step</find>
+      <find>printGroup</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -67,10 +85,13 @@
         <option value="$PROJECT_DIR$/src/No8_字符串转换整数atoi.java" />
         <option value="$PROJECT_DIR$/src/No8_字符串转换整数.java" />
         <option value="$PROJECT_DIR$/src/No9_回文数.java" />
+        <option value="$PROJECT_DIR$/src/PrintColorUtils.java" />
+        <option value="$PROJECT_DIR$/src/No10_正则表达式匹配.java" />
+        <option value="$PROJECT_DIR$/src/PrintUtils.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -79,6 +100,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,8 +118,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -124,16 +145,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.No9_回文数">
-    <configuration name="No5_最长回文子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="No5_最长回文子串" />
-      <module name="LeetcodeTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="No6_Z字形变换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="No6_Z字形变换" />
+  <component name="RunManager" selected="Application.PrintUtils">
+    <configuration name="No10_正则表达式匹配" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="No10_正则表达式匹配" />
       <module name="LeetcodeTest" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,13 +174,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrintUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintUtils" />
+      <module name="LeetcodeTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintUtils" />
+        <item itemvalue="Application.No10_正则表达式匹配" />
         <item itemvalue="Application.No9_回文数" />
-        <item itemvalue="Application.No8_字符串转换整数atoi" />
         <item itemvalue="Application.No7_整数反转" />
-        <item itemvalue="Application.No6_Z字形变换" />
-        <item itemvalue="Application.No5_最长回文子串" />
       </list>
     </recent_temporary>
   </component>
@@ -184,18 +204,36 @@
       <workItem from="1587528454254" duration="1088000" />
       <workItem from="1587780986455" duration="17924000" />
       <workItem from="1588066861059" duration="9000" />
-      <workItem from="1591796529602" duration="8980000" />
+      <workItem from="1591796529602" duration="46972000" />
+      <workItem from="1594096646824" duration="1404000" />
+      <workItem from="1594706071832" duration="1121000" />
+      <workItem from="1594866139446" duration="1101000" />
+      <workItem from="1595252241031" duration="5100000" />
+      <workItem from="1595425060908" duration="5633000" />
+      <workItem from="1601174810263" duration="4353000" />
+      <workItem from="1602481955713" duration="64000" />
+      <workItem from="1602486289604" duration="26000" />
+      <workItem from="1602839944243" duration="203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69346000" />
+    <option name="totallyTimeSpent" value="126343000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24542125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24969475" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -204,11 +242,11 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25918368" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39081633" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.327551" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32959184" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -221,8 +259,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Flutter Inspector" order="5" />
-      <window_info anchor="right" id="Flutter Outline" order="6" />
+      <window_info anchor="right" id="Flutter Inspector" order="5" weight="0.32967034" />
+      <window_info anchor="right" id="Flutter Outline" order="6" weight="0.32967034" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -253,8 +291,45 @@
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/No10_正则表达式匹配.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/No10_正则表达式匹配.java</url>
+          <line>186</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/No10_正则表达式匹配.java</url>
+          <line>123</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/No10_正则表达式匹配.java</url>
+          <line>228</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="group" />
+        <watch expression="hi" />
+        <watch expression="group.get(group.size()-1).length()" />
+        <watch expression="step" />
+        <watch expression="pi &lt; pLen" />
+        <watch expression="si" />
+        <watch expression="si &gt;= sLen " />
+        <watch expression="pi &gt;= pLen" />
+        <watch expression="sChar == hisChar" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -331,13 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="2877" column="61" selection-start-line="2877" selection-start-column="52" selection-end-line="2877" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -361,10 +429,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/No9_回文数.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        <state relative-caret-position="270">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           <folding>
-            <marker date="1591866481297" expanded="true" signature="630:898" ph="..." />
+            <marker date="1591866487561" expanded="true" signature="630:898" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="1953" column="49" lean-forward="true" selection-start-line="1953" selection-start-column="49" selection-end-line="1953" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/No10_正则表达式匹配.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="83" column="41" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrintUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
